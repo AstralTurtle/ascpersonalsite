@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aaron James | My Projects</title>
+		<link rel="stylesheet" href="pstyles.css" />
+	</head>
+	<body>
+		<nav>
+			<a href="index.html" class="navitem">Home</a>
+			<a href="projects.html" class="navitem">Projects</a>
+		</nav>
+		<div id="title">
+			<h1>My Projects</h1>
+		</div>
+		<div id="projectsContainer">
+			<div id="Utilties">
+				<h1>Utilties</h1>
+				<div id="benri">
+					<h2>Benri</h2>
+					<iframe
+						width="500"
+						height="315"
+						src="https://www.youtube.com/embed/McOHj4I3r1U"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+					<a href="https://github.com/Techno3d/Benri" target="_blank"
+						>Check Out Benri!</a
+					>
+				</div>
+			</div>
+			<div id="games">
+				<h1>Games</h1>
+				<select name="Select A Game" id="gameSelect">
+					<option value="slime">Slime Slayer</option>
+					<option value="apoc">Apocalypse Clicker</option>
+					<option value="TWOAS">The Work Of A Salesman</option>
+				</select>
+				<button id="play">Play!</button>
+				<div id="slimeslayer" class="gamediv">
+					<iframe
+						id="slimeFrame"
+						src="https://itch.io/embed-upload/7358114?color=132E32"
+						allowfullscreen=""
+						width="640"
+						height="380"
+						frameborder="0"
+						><a href="https://astralturtle329.itch.io/slime-slayer"
+							>Play Slime Slayer on itch.io</a
+						></iframe
+					>
+				</div>
+				<div id="apocclicker" class="gamediv">
+					<iframe
+						id="apocframe"
+						src="https://itch.io/embed-upload/7671348?color=E24C39"
+						allowfullscreen=""
+						width="640"
+						height="380"
+						frameborder="0">
+						<a href="https://astralturtle329.itch.io/apocalypse-clicker"
+							>Play Apocalypse Clicker on itch.io</a
+						></iframe
+					>
+				</div>
+				<div id="TWOAS" class="gamediv">
+					<iframe
+						id="TWOASFrame"
+						src="https://scratch.mit.edu/projects/769287939/embed"
+						allowtransparency="true"
+						width="485"
+						height="402"
+						frameborder="0"
+						scrolling="no"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+			<div id="miniprojects">
+				<h1>Mini Projects</h1>
+				<select name="Goto A Project" id="miniSelect">
+					<option value="dice">Assorted Dice Rollers</option>
+					<option value="p5timer">Timer (in p5.js)</option>
+				</select>
+				<button id="goto">Goto</button>
+			</div>
+		</div>
+
+		<script src="projects.js"></script>
+	</body>
+</html>
